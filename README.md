@@ -1,1 +1,4 @@
 # bamazon
+This is a Node based amazon-like storefront app. Built with node.js and mysql, this will allow full interactivity within the console.
+
+The customer view uses inquirer to ask what product you would like to search for. It will then display all items in the inventory showing the product id number, name, department, price, and quantity of items in stock. It will then ask the user to enter the product id number of the item they wish to buy and then the quantity of that item. If that amount does not exist in the inventory it will reply "There are not enough items in stock to fill your order.". Before completing the purchase it will display the chosen product and quantity as well as the total price. 
